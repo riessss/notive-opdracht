@@ -58,6 +58,5 @@ Run app:
 cd notive_assignment
 uv venv # Follow terminal for activation
 uv sync
-uv lock
 uv run src/api/main.py
 ```
