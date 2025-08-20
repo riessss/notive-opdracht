@@ -44,7 +44,7 @@ Doordat ik tijdens het programmeren nieuwe dingen ontdekte, zoals bijvoorbeeld h
 Requirements:
 - Python (For install see 'https://www.python.org/downloads/')
 - uv
-- Een API key van the movie db in `.env`file
+- Een API key van the movie db in `.env`file (Zie template `example.env`)
 
 Install uv:
 ```bash
