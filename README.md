@@ -10,7 +10,7 @@ Ik heb het project geschreven in **Python** met de volgende libraries:
 
 Ik was van plan om celery te gebruiken. Ik wist vantevoren niet dat dit niet direct gelinkt was aan flask. Ik had de models en configuratie in flask geschreven en het had me te veel tijd gekost om dit om te zetten naar celery. Vandaar dat ik het met threading heb gedaan.
 
-### Api 
+### API
 Voor de api heb ik uiteindelijk gekozen om the `discover/movie` api the kiezen en deze in twee functies te gebruiken. Op deze manier heb ik kunnen filteren voor:
 - Populaire films: op een score van 8.5 (of hoger) en meer dan een bepaald aantal stemmen. 
 - Oude films: op een release_date van 1995 of eerder en een gemiddelde score.
